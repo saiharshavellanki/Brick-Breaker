@@ -1,0 +1,42 @@
+Controls:
+
+Keyboard:
+
+A to rotate canon up
+D to rotate canon Down
+S to move canon up
+F to move canon down
+Ctrl+left to move left basket left
+Ctrl+Right to move left basket right
+Alt+left to move right basket left
+Alt+Right to move right basket right
+up key to zoom in
+down key to zoom out
+left key to pan left
+right key to pan right
+spacebar to shoot
+h to pan up
+l to pan down
+p to pause(p again top resume)
+n to increase speed of brick
+m to decrease speed of brick
+
+Mouse:
+
+highlight bins,canon when left click is pressed
+left click + drag to move bins,canon
+right click + drag to pan up,down,left,right
+scroll wheel forward to zoom in and backward to zoom out
+left click on place other than canon,bins to shoot a bullet there
+
+Score is displayed on right corner and levels are present which are not displayed on screen.Speed of blocks will be increased for each level.
+
+red and green bins positions are restricted to left and right parts.Bricks fall accordingly
+On shooting black brick with laser,+2 points are awarded and -1 if we shoot red/green brick
+if Red bin collects Red brick,+2 points are awarded
+if Green bin collects Green brick,+2 points are awarded
+
+3 lives on each side are displayed and when black brick falls in any bin,corresponding lives are decreased.When lives on both side become zero,game ends.
+
+run make
+run ./shoot to start the game
